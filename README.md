@@ -32,5 +32,5 @@ http://www.us.apache.org/dist/kafka/0.8.1.1/kafka_2.9.2-0.8.1.1.tgz
 
 SUMMARY:
 a. Producer will read the data from PostMan and write it to Kafka bus.
-b. Consumer pulls the offset(data) from bus and insert into DB 
+b. Consumer pulls the offset(data) from bus and insert into DB.
 c. Now when you try accessing the URL http://127.0.0.1:8080/RealTimeAnalytics/dashboard/all, you get live data form mongoDB 
