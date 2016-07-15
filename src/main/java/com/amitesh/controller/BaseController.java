@@ -53,7 +53,7 @@ public class BaseController {
 	 * @return
 	 */
 	
-	@RequestMapping(value = "test-events/send", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@RequestMapping(value = "/send", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
 	public String sendEvent(@RequestBody ServiceEventRequest event) {				
 		String jsonData;
